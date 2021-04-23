@@ -1,27 +1,4 @@
-# Frontend
+# Mayan Barros
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
+Camila este fiz este mini projeto bem simples, consegui colocar os conhecimentos básicos de Angular em prática, confesso que tive algumas dificuldades em algumas partes, está sendo um desafio conseguir sair do conteúdo teórico e aplicar a prática, porém sigo firme estudando e revendo alguns fundamentos para poder fixar na minha cabeça, coloquei neste projeto um header bem simples, um footer, uma barra de navegação, que dentro dele tem uma material-list contendo as rotas de cada componente, por fim fiz para representar cada componente um material-card com alguns conteúdos visuais.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
