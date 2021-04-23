@@ -7,17 +7,38 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/template/header/header.component';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { FooterComponent } from './components/template/footer/footer.component';
+import { NavComponent } from './components/template/nav/nav.component';
+
+import { MatSidenavModule } from '@angular/material/sidenav'
+import { MatCardModule } from '@angular/material/card'
+import { MatListModule } from '@angular/material/list';
+import { HomeComponent } from './views/home/home.component';
+import { CertificadosComponent } from './views/certificados/certificados.component';
+import { EducacaoComponent } from './views/educacao/educacao.component';
+import { MatButtonModule } from '@angular/material/button';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent,
+    NavComponent,
+    HomeComponent,
+    CertificadosComponent,
+    EducacaoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatListModule,
+    MatSidenavModule,
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

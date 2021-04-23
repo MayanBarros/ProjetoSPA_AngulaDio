@@ -1,11 +1,10 @@
-mat-toolbar {
-    height: 100px;
-}
-
-
 .header {
     display: flex;
     align-items: center;
+    height: 100px;
+    background-color: rgb(255, 123, 0);
+    border-bottom: solid 5px;
+    
 }
 
 .header a {
@@ -15,13 +14,12 @@ mat-toolbar {
 }
 
 .header .logo {
-    max-height: 80px;
+    max-height: 70px;
 }
 
 .header .title-group {
-    margin-left: 25px;
+    padding-left: 15px;
 }
-
 .header .title-group i {
-    padding-right: 5px;
+    padding-right: 10px;
 }

@@ -1,0 +1,21 @@
+.footer i, .footer strong {
+    color: rgb(255, 123, 0);
+}
+
+mat-toolbar {
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer span {
+    font-weight: 100;
+    font-size: 1.1rem;
+}
